@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Link Properties</title>
+</head>
+<style>
+    a{
+        color: red;
+        font-size: 20px;
+    }
+    a:link{
+        color: yellow;
+    }
+    a:visited{
+        color: green;
+    }
+    a:hover{
+        color: red;
+    }
+    a:active{
+        color:blue;
+    }
+    /* another */
+    a.more{
+        padding: 20px;
+        border: 1px solid #ccc;
+        background-color:blue;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    a.more:link{
+        color: red;
+    }
+    a.more:visited{
+        color: aqua;
+    }
+    a.more:hover{
+        color:yellow;
+        background-color: green;
+        text-decoration: underline;
+    }
+</style>
+<body>
+    <h2 style="text-align: center;">CSS link Properties</h2>
+<a href="http://google.com">Search in Google</a>
+<br>
+<a href="http://facebook.com">Search in Facebook</a>
+<br>
+<a href="http://twitter.com">Search i Twitter</a>
+<br>
+<a href="http://linkedin.com">Search in Linkedin</a>
+<br><br><br>
+<a class="more" href="http://wikipedia.com">Learn more</a>
+</body>
+</html>
